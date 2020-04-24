@@ -1,1 +1,114 @@
-Welcome
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Shashwat">
+    <meta name="description" content="Shashwat Singh is a web developer working 
+    in C#, Java and Javascript. This is his personal website">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@shashwatsingh</title>
+
+    <style type="text/css">
+      @import url('https://rsms.me/inter/inter.css');
+
+    :root {
+      --body-bg: #fafafa;
+      --body-color: #7a7a7a;
+      --body-font-weight: 400;
+      --link-color: #0074d9;
+      --link-color-hover: #005baa;
+      --heading-color: #333;
+      --heading-color-hover: #222;
+      --hr-color: rgba(0,0,0,.1);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --body-bg: #212529;
+        --body-color: #6c757d;
+        --body-font-weight: 300;
+        --link-color: #dee2e6;
+        --link-color-hover: #fff;
+        --heading-color: #fff;
+        --hr-color: rgba(255,255,255,.1);
+      }
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    html { font-size: 16px; }
+    @media (min-width: 30em) {
+      html { font-size: 18px; }
+    }
+    body {
+      max-width: 48vw;
+      margin: 0;
+      padding: 1.5rem;
+      font: var(--body-font-weight) 1rem/1.5 'Inter', sans-serif; 
+      color: var(--body-color);
+      background-color: var(--body-bg);
+    }
+    @media (min-width: 500px) {
+      body {
+        padding: 3rem;
+      }
+    }
+
+    a {
+      color: var(--link-color);
+      text-decoration: none;
+      transition: color .2s ease-in-out;
+    }
+    a:hover {
+      color: var(--link-color-hover);
+      text-decoration: underline;
+      text-decoration-skip-ink: auto;
+    }
+    hr {
+      width: 6rem;
+      height: 1px;
+      margin: 2.5rem 0;
+      background-color: var(--hr-color);
+      border: 0;
+    }
+    
+    h1, h2, h3 {
+      margin-top: 0;
+      font-weight: 500;
+    }
+    h1 {
+      margin-bottom: .5rem;
+      font-size: 2.25rem;
+      line-height: 1;
+    }
+    header h1 a {
+      color: var(--heading-color);
+    }
+	header h1 a:hover {
+      color: var(--heading-color-hover);
+    }
+  </style>
+    
+  </head>
+  <body>
+
+  <header>
+    <h1><a href="/">@shashwatsingh</a></h1>
+    <hr />
+    <p>I am a Web Developer with experince in C#, Java and 
+      Javscript stack.</p>
+  </header>
+  
+  <main>
+    <div class="links">
+      <ul>
+        <li><a href="https://github.com/shashwatsingh">GitHub</a></li>
+        <li><a href="https://shashwats.wordpress.com">Blog</a></li>
+        <li><a href="https://twitter.com/shashwatsingh">Twitter</a></li>
+      </ul>
+    </div>
+  </main>
+
+  </body>
+</html>
